@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <ProjectGuid>{60BFF7ED-079E-40D4-9651-F4A37832864D}</ProjectGuid>
+    <StartupObject>ManualTest.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AreaCalculatorLib\AreaCalculatorLib.csproj" />
+  </ItemGroup>
+
+</Project>
